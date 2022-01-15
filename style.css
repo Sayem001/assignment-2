@@ -199,30 +199,44 @@ footer{
 /* media query making my web site responsive */
 
 @media only screen and (max-width:500px) {
-    .journey-camera ,.bonus{
+    .journey-camera{
+        display: grid;
         grid-template-columns: repeat(1,1fr);
+        width: 400px;
+
        
     }
-    .products{
-        grid-template-columns: repeat(2,1fr);
+    .journey{
+        width: 400px;
     }
-    .social-site{
-        grid-template-columns: repeat(3,1fr);
+    .bonus{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 400px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sites{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     .journey-camera, .bonus{
         flex-direction: column;
     }
     .products{
         flex-direction: column;
+
     }
-    .social-site{
+    .sites{
         flex-direction: column;
     }
     .header, .footer{
-        flex-direction: column;
+        width: 400px;
     }
     .container{
-        width: 80%;
+        width: 100%;
         justify-content: center;
     }
 }
