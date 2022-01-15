@@ -1,0 +1,72 @@
+/* DM sans font */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,600;1,300&family=DM+Sans:wght@500&family=Hind+Siliguri:wght@500&family=Luxurious+Roman&family=Poppins:wght@500&family=Rubik:wght@600&family=Ubuntu:wght@500&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #f1ecec;
+}
+/*------------------
+ header section 
+ -------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  border-left: 30px;
+  border-right: 20px;
+}
+.header-div1 h3 {
+  font-size: 35px;
+  color: rgb(17, 17, 17);
+}
+.header-div2 a {
+  text-decoration: none;
+  padding-right: 35px;
+  font-size: 25px;
+  color: rgba(21, 21, 71, 0.808);
+  font-weight: 600;
+}
+
+/* -----------------
+main section 
+-----------------*/
+
+/* journey influence with camera photo */
+.journey-camera{
+    display: flex;
+    justify-content: space-around;
+}
+.journey{
+width: 580px;
+height: 270px;
+margin-top:100px;
+}
+.journey h1{
+    font-size: 4em;
+    color: rgba(26, 24, 24, 0.795);
+}
+.journey p{
+    font-size: 1.6em;
+}
+.journey a{
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: 800;
+    background-color: tomato;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.camera{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgba(46, 45, 45, 0.329);
+    border-radius: 210px;
+    padding: 20px;
+}
+
+
